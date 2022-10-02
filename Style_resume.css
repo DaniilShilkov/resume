@@ -164,6 +164,7 @@ a:hover {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 600px) {
@@ -190,7 +191,10 @@ a:hover {
 
 @media (max-width: 600px) {
     .list {
-        margin: 0 150px 0px 190px;
+        margin-left: 190px;
+        margin-right: 150px;
+        position: relative;
+        bottom: 20px;
     }
 }
 
@@ -255,6 +259,16 @@ a:hover {
     margin: 0;
 }
 
+@media (max-width: 600px) {
+    .form-row .name {
+        display: block;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
+
 .form-row .name:last-child {
     margin-right: 0;
 }
@@ -280,6 +294,14 @@ a:hover {
     font-family: inherit;
 }
 
+@media (max-width: 600px) {
+    .name input ,
+    .name textarea {
+        border-right: 0;
+    }
+    
+}
+
 .form-row input::placeholder,
 .form-row textarea::placeholder {
     color: rgb(0, 38, 141);
@@ -295,6 +317,13 @@ a:hover {
     transition: all .2s;
     position: relative;
     bottom: 12px;
+}
+
+@media (max-width: 600px) {
+    .btn {
+        transition: none;
+        font-size: 30px;
+    }
 }
 
 .btn:hover {
