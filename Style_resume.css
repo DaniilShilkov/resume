@@ -2,7 +2,8 @@
 body {
     font-size: 25px;
     font-weight: 400;
-    margin: 20px 318px ;
+    /* margin: 20px 318px ; */
+    margin: auto;
     padding: 0;
     background-image: url(Phon.jpg);
     background-size:cover;
